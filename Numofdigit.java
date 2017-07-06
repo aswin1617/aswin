@@ -1,24 +1,24 @@
 import java.util.Scanner;
-class Numofdigit 
+public class Numofdigit 
 {
 public static void main(String[] args) 
 {
- int no,a=0;
+ int n,a=0;
  Scanner s=new Scanner(System.in);
 System.out.println("Enter any number : ");
- no = s.nextInt();
+ n = s.nextInt();
 
-if(no<0)
+if(n<0)
 {
-no=no * -1;
+n=n*-1;
 }
-else if(no==0)
+else if(n==0)
 {
-no=1;
+n=1;
 }
-while(no>0)
+while(n>0)
 {
-no=no/10;
+n=n/10;
 a++;
 }
 System.out.println("Number of Digits in given number is: "+a);
