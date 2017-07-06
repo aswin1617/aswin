@@ -10,7 +10,7 @@ public class largest
   c=Integer.parseInt(br.readLine());
   if(a>b && a>c)
   System.out.println(a);
-  else if(b<a && b<c)
+  else if(b>a && b>c)
   System.out.println(b);
   else
   System.out.println(c);
