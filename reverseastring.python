@@ -1,0 +1,2 @@
+a="nivi gokul"[::-1]
+print a
